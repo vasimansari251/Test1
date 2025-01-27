@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge UiPath Academy Partners(2)",
+  "Type": "Screen",
+  "Id": "H2iI5sdP_k2o7ES7E5Z_Ig",
+  "Reference": "a3vC_tn-2kCGtMWpPBYOmg/H2iI5sdP_k2o7ES7E5Z_Ig",
+  "ParentRef": "a3vC_tn-2kCGtMWpPBYOmg/c5B_ajqtEUCZtE41QWRO5g",
+  "Created": "2024-11-15T12:15:38.1001292Z",
+  "Updated": "2024-11-15T12:15:38.1001292Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

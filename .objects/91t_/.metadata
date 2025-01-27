@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge UiPath Academy Partners(2)",
+  "Type": "App",
+  "Id": "91t_cGY4EEWFH97f8cgmAw",
+  "Reference": "a3vC_tn-2kCGtMWpPBYOmg/91t_cGY4EEWFH97f8cgmAw",
+  "Created": "2024-11-15T12:15:38.0512724Z",
+  "Updated": "2024-11-15T12:15:38.0512724Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
