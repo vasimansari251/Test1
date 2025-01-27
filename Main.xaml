@@ -132,17 +132,9 @@
       <Variable x:TypeArguments="scg:List(x:String)" Name="arr" />
       <Variable x:TypeArguments="upaf:FormTaskData" Name="TaskObj" />
       <Variable x:TypeArguments="x:String" Name="strSelectedCity" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="city">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="new List(of String)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(of String)]" Name="city" />
       <Variable x:TypeArguments="x:String" Name="variable2" />
-      <Variable x:TypeArguments="x:TimeSpan" Name="dt">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:TimeSpan" Value="01:00:00" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:TimeSpan" Default="01:00:00" Name="dt" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt1" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -150,12 +142,10 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[city.Count]" />
-    <ui:InvokeCode ContinueOnError="{x:Null}" Code="city1.Add(&quot;12&quot;)&#xD;&#xA;city1.Add(&quot;34&quot;)" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="416,197.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[city.Count]" />
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="city1.Add(&quot;12&quot;)&#xA;city1.Add(&quot;34&quot;)" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="416,197.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
       <ui:InvokeCode.Arguments>
-        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="city1">
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="city" />
-        </InArgument>
+        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="city1">[city]</InArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[city.Count]" />
